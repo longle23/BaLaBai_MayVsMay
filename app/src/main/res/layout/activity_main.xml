@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#669933"
+    android:gravity="bottom|clip_horizontal|center|clip_vertical|start|right|center_horizontal|fill|fill_horizontal|top|left|center_vertical|fill_vertical|end"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button_rutbai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#800000"
+        android:text="Rút ngẫu nhiên 3 lá bài" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFCC33"
+        android:text="Máy tính 1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_May"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/matlunglabai" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/matlunglabai" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/matlunglabai" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="VS" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_Nguoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/matlunglabai" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/matlunglabai" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/matlunglabai" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFCC33"
+        android:text="Máy tính 2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="------------------------------------------------------------------------------------------------------" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-- Máy tính --" />
+
+    <TextView
+        android:id="@+id/textView_MayTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả : " />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-- Người chơi --" />
+
+    <TextView
+        android:id="@+id/textView_NguoiChoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả : " />
+
+    <TextView
+        android:id="@+id/textView_KetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="===> Kết quả là : " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Thời gian chơi"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/editText_TimeStart"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:hint="Thời gian chơi (Giây)"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/editText_Step"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:hint="Bước đếm thời gian (Giây)"
+        android:inputType="time" />
+
+
+</LinearLayout>
